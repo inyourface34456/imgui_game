@@ -8,9 +8,9 @@ include_directories(glad/include/glad)
 include_directories(imgui)
 add_subdirectory(imgui)
 
-add_executable(${PROJECT_NAME} main.cpp glad/src/gl.c
+add_executable(imgui_idle_game main.cpp glad/src/gl.c
         callbacks.cpp
         callbacks.h)
-target_link_libraries(${PROJECT_NAME} PRIVATE glfw)
-target_link_libraries(${PROJECT_NAME} PUBLIC imgui imgui-glfw imgui-opengl3)
+target_link_libraries(imgui_idle_game PRIVATE glfw)
+target_link_libraries(imgui_idle_game PUBLIC imgui imgui-glfw imgui-opengl3)
 #target_link_libraries(${PROJECT_NAME} PRIVATE glad)
