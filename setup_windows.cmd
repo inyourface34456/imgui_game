@@ -9,5 +9,6 @@ curl -L -o CMakeLists.txt "https://gist.github.com/inyourface34456/f1d421a566c2a
 cd ..
 git clone https://github.com/microsoft/vcpkg
 cd vcpkg
+bootstrap-vcpkg.bat
 vcpkg install glfw3:x64-windows
 vcpkg install freetype:x64-windows
