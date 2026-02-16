@@ -5,4 +5,9 @@ tar -xf glad.zip
 cd ..
 git clone "https://github.com/ocornut/imgui.git"
 cd imgui
-curl -L -o CMakeLists.txt "https://gist.githubusercontent.com/rokups/f771217b2d530d170db5cb1e08e9a8f4/raw/4c2c14374ab878ca2f45daabfed4c156468e4e27/CMakeLists.txt"
+curl -L -o CMakeLists.txt "https://gist.github.com/inyourface34456/f1d421a566c2ae895e4ef9e836e4b206/raw/02dfb48f4cbb7350ecb59638d0c9ef298897ee23/CMakeLists.txt"
+cd ..
+git clone https://github.com/microsoft/vcpkg
+cd vcpkg
+vcpkg install glfw3:x64-windows
+vcpkg install freetype:x64-windows
