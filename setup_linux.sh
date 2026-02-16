@@ -5,4 +5,4 @@ unzip glad.zip
 cd ..
 git clone "https://github.com/ocornut/imgui.git"
 cd imgui
-wget "https://gist.githubusercontent.com/rokups/f771217b2d530d170db5cb1e08e9a8f4/raw/4c2c14374ab878ca2f45daabfed4c156468e4e27/CMakeLists.txt"
+wget "https://gist.github.com/inyourface34456/f1d421a566c2ae895e4ef9e836e4b206/raw/02dfb48f4cbb7350ecb59638d0c9ef298897ee23/CMakeLists.txt"

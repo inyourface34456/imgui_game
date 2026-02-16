@@ -4,7 +4,7 @@ project(imgui_idle_game)
 set(CMAKE_CXX_STANDARD 26)
 
 find_package(glfw3 REQUIRED)
-include_directories(glad/include/glad)
+include_directories(glad/include)
 include_directories(imgui)
 add_subdirectory(imgui)
 
