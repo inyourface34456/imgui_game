@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 4.0)
 project(imgui_idle_game)
 
 set(CMAKE_CXX_STANDARD 26)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 if (WIN32)
     option(WinStatic "Static Build" OFF)
